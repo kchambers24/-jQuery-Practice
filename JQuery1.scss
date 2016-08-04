@@ -1,5 +1,5 @@
 $main-color: grey;
-
+$second-color: lightgrey;
 
 
 body {
@@ -38,7 +38,7 @@ ul.subFiles > li {
   float: right;
   margin: 0;
   padding-right: 10px;
-  padding-top: 5px; }
+  padding-top: 10px; }
 
 .subNumbersRight {
   float: right;
@@ -61,9 +61,6 @@ ul.subFiles > li {
 .fa-plug {
   padding: 10px; }
 
-.fa-plug:hover {
-  color: #404040; }
-
 .circle {
   border: 1px solid #989898;
   border-radius: 5px;
@@ -84,7 +81,11 @@ ul.subFiles > li {
   color: #686868; }
 
 .parentBox:hover {
-  background-color: green; }
-
+  background-color: #00e500;
+  color: #404040;
+}
+.numberRight {
+  color: white;
+}
 .innerNumber {
   font-size: 10px; }
